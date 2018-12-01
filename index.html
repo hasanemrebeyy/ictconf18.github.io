@@ -95,10 +95,10 @@ data-an-delay="0.7s" data-an-duration="1s">
                           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                           // Display the result in the element with id="demo"
-                          document.getElementById("digits days").innerHTML = days ;
-                          document.getElementById("digits hours").innerHTML = hours;
-                          document.getElementById("digits minutes").innerHTML =  minutes
-                          document.getElementById("digits seconds").innerHTML =  seconds;
+                          document.getElementById("digits days").innerHTML = "0" ;
+                          document.getElementById("digits hours").innerHTML = "0";
+                          document.getElementById("digits minutes").innerHTML =  "0";
+                          document.getElementById("digits seconds").innerHTML =  "0";
 
                           // If the count down is finished, write some text
                           if (distance < 0) {
