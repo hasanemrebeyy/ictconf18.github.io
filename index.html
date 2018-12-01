@@ -36,13 +36,6 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-		<!-- PRELOADER -->
-		<div class="preloader">
-			<div class="loader">
-				<svg width="200" height="200" viewBox="0 0 40 60"><polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"/></svg>
-			</div>
-		</div>
-		<!-- /END PRELOADER -->
 
 		<!-- BACKGROUND -->
 		<aside id="background" class="background">
@@ -74,57 +67,6 @@ data-an-delay="0.7s" data-an-duration="1s">
 												<!-- TITLE -->
 												<h1 class="an-start" data-an="fadeInUp" data-an-delay="1s" data-an-duration="1s"><b>ICTCONF</b> 2018</h1>
 												<!-- /END TITLE -->
-
-                        <script>
-                        // Set the date we're counting down to
-                        var countDownDate = new Date("Oct 27, 2018 09:00:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                          // Get todays date and time
-                          var now = new Date().getTime();
-
-                          // Find the distance between now an the count down date
-                          var distance = countDownDate - now;
-
-                          // Time calculations for days, hours, minutes and seconds
-                          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                          // Display the result in the element with id="demo"
-                          document.getElementById("digits days").innerHTML = "0" ;
-                          document.getElementById("digits hours").innerHTML = "0";
-                          document.getElementById("digits minutes").innerHTML =  "0";
-                          document.getElementById("digits seconds").innerHTML =  "0";
-
-                          // If the count down is finished, write some text
-                          if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("demo").innerHTML = "EXPIRED";
-                          }
-                        }, 1000);
-                        </script>
-
-												<!-- COUNTDOWN -->
-												<div class="countdown mb-20 an-start" data-an="fadeInUp" data-an-delay="1.3s" data-an-duration="1s">
-													<span id="digits days"></span> Gün :
-													<span id="digits hours"></span> :
-													<span id="digits minutes"></span> :
-													<span id="digits seconds"></span>
-												</div>
-												<!-- /END COUNTDOWN -->
-
-												<!-- CONTENT -->
-												<p class="an-start" data-an="fadeInUp" data-an-delay="1.6s" data-an-duration="1s">Her konudan, bir çok uzman tarafından verilecek konferansları kaçırmayın!<br/>ICTCONF, 27 Ekim 2018'de.</p>
-												<!-- /END CONTENT -->
-
-												<!-- BUTTONS -->
-												<a href="#" data-toggle="modal" data-target=".newsletter" class="btn btn-white btn-border btn-icon an-start"
-data-an="fadeInUp" data-an-delay="1.9s" data-an-duration="1s"><span>Haberdar olmak istiyorum!</span><i class="ti-bell"></i></a>
-												<!-- /END BUTTONS -->
 											</div>
 										</div>
 										<!-- /HOME PAGE CONTENT -->
